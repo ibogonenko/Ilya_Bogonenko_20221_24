@@ -2,7 +2,7 @@ import time
 
 # Функция для чтения входных данных из файла
 def read_input():
-    with open('input_loc.txt', 'r') as file:
+    with open('input.txt', 'r') as file:
         # Читаем n, l и k из первой строки
         n, l, k = map(int, file.readline().strip().split())
         # Читаем занятые позиции в виде множества кортежей
